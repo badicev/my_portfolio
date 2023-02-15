@@ -3,14 +3,14 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
-col1, col2, col3 = st.columns([0.5, 2, 1])
+col1, col2, col3 = st.columns([1, 2, 0.25])
 
-df = pd.read_csv("Portfolio/data.csv", sep=";")
+df = pd.read_csv("data.csv", sep=";")
 
 
 
 with col1:
-    st.image("Portfolio/images/photo.png", width=300)
+    st.image("images/photo.png", width=300)
 
 with col2:
     st.title("Başak Dilara Çevik")
@@ -47,79 +47,79 @@ tab13 = st.tabs(["To-Do App", "Portfolio", "PDF Generation", "Excel Invoices to 
 with tab1:
    st.header("To-Do App")
    st.write(df["description"][0])
-   st.image("Portfolio/images/1.png", width=500)
+   st.image("images/1.png", width=500)
    st.write(f"[Source Code]({df['url'][0]})")
 
 
 with tab2:
    st.header("Portfolio")
    st.write(df["description"][1])
-   st.image("Portfolio/images/2.png", width=500)
+   st.image("images/2.png", width=500)
    st.write(f"[Source Code]({df['url'][1]})")
 
 with tab3:
    st.header("Excel Invoices to PDF")
    st.write(df["description"][2])
-   st.image("Portfolio/images/3.png", width=500)
+   st.image("images/3.png", width=500)
    st.write(f"[Source Code]({df['url'][2]})")
 
 with tab4:
     st.header("")
     st.write(df["description"][3])
-    st.image("Portfolio/images/4.png", width=500)
+    st.image("images/4.png", width=500)
     st.write(f"[Source Code]({df['url'][3]})")
 
 with tab5:
     st.header("")
     st.write(df["description"][4])
-    st.image("Portfolio/images/5.png", width=500)
+    st.image("images/5.png", width=500)
     st.write(f"[Source Code]({df['url'][4]})")
 
 with tab6:
     st.header("")
     st.write(df["description"][5])
-    st.image("Portfolio/images/6.png", width=500)
+    st.image("images/6.png", width=500)
     st.write(f"[Source Code]({df['url'][5]})")
 
 with tab7:
     st.header("")
     st.write(df["description"][6])
-    st.image("Portfolio/images/7.png", width=500)
+    st.image("images/7.png", width=500)
     st.write(f"[Source Code]({df['url'][6]})")
 
 with tab8:
     st.header("")
     st.write(df["description"][7])
-    st.image("Portfolio/images/8.png", width=500)
+    st.image("images/8.png", width=500)
     st.write(f"[Source Code]({df['url'][7]})")
 
 with tab9:
     st.header("")
     st.write(df["description"][8])
-    st.image("Portfolio/images/9.png", width=500)
+    st.image("images/9.png", width=500)
     st.write(f"[Source Code]({df['url'][8]})")
 
 with tab10:
     st.header("")
     st.write(df["description"][9])
-    st.image("Portfolio/images/10.png", width=500)
+    st.image("images/10.png", width=500)
     st.write(f"[Source Code]({df['url'][9]})")
 
 with tab11:
     st.header("")
     st.write(df["description"][10])
-    st.image("Portfolio/images/11.png", width=500)
+    st.image("images/11.png", width=500)
     st.write(f"[Source Code]({df['url'][10]})")
 
 with tab12:
     st.header("")
     st.write(df["description"][11])
-    st.image("Portfolio/images/12.png", width=500)
+    st.image("images/12.png", width=500)
     st.write(f"[Source Code]({df['url'][11]})")
 
 with tab13:
     st.header("")
     st.write(df["description"][12])
-    st.image("Portfolio/images/13.png", width=500)
+    st.image("images/13.png", width=500)
     st.write(f"[Source Code]({df['url'][12]})")
 
