@@ -12,6 +12,7 @@ Open Domain Chatbot;A chatbot built that can discuss anything with a human and i
 Webcam Motion Detector;A program that monitors the computer webcam and sends an email when a new object enters the view.;;11.png
 Typing Analyzer;A program that monitors the computer keyboard and returns the most typed words of the session.;;12.png
 Internet Speed Analysis;A program that records the internet speed every few seconds and plots the values on the browser.;;13.png
+Astronomy Image of the Day;A website to see astronomy image and its description of the day.;https://badicev-astronomy-image-of-the-day-main-u8hu45.streamlit.app/;14.png
 Monitoring Data;A program that monitors a particular website and periodically records the data to a remote server.;;14.png
 Visualizing Data;A program that visualizes the data collected in the previous monitoring program. ;;15.png
 Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;;16.png
