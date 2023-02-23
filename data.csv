@@ -15,7 +15,7 @@ Internet Speed Analysis;A program that records the internet speed every few seco
 Astronomy Image of the Day;A website to see astronomy image and its description of the day.;https://badicev-astronomy-image-of-the-day-main-u8hu45.streamlit.app/;14.png
 Monitoring Data;A program that monitors a particular website and periodically records the data to a remote server.;;14.png
 Visualizing Data;A program that visualizes the data collected in the previous monitoring program. ;;15.png
-Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;;16.png
+Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://badicev-weatherforecast-main-qhna0q.streamlit.app/;16.png
 Student Management System;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;;17.png
 School Management System;A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.;;18.png
 Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;;19.png
