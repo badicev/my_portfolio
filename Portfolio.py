@@ -36,7 +36,7 @@ tab13, tab14, tab15 = st.tabs(["To-Do App", "Portfolio", "PDF Generation", "Exce
                                   "Email News", "Weather API", "Book Sentiment Analysis",
                                   "Email Webcam Object Detection", "Web Scraping Musical Events",
                                   "Hotel Booking", "Super Mario Game Code Inspection",
-                                  "Student Management System", "Chatbot", "Astronomy Image of the Day"])
+                                  "Student Management System", "Chatbot", "Astronomy Image of the Day", "Weather Forecast"])
 
 #if you prefer columnwise rather than tabwise
 # for index, row in df.iterrows():
