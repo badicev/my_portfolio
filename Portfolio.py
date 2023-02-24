@@ -133,5 +133,5 @@ with tab14:
 with tab15:
     st.header("")
     st.write(df["description"][16])
-    st.image("images/17.png", width=500)
+    st.image("images/16.png", width=500)
     st.write(f"[Streamlit Website]({df['url'][16]})")
