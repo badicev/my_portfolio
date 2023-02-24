@@ -31,7 +31,7 @@ st.subheader(content2)
 tab1, tab2, tab3, tab4, tab5, tab6,\
 tab7, tab8, tab9, tab10, \
 tab11, tab12, \
-tab13, tab14 = st.tabs(["To-Do App", "Portfolio", "PDF Generation", "Excel Invoices to PDF",
+tab13, tab14, tab15 = st.tabs(["To-Do App", "Portfolio", "PDF Generation", "Excel Invoices to PDF",
                                   "Email News", "Weather API", "Book Sentiment Analysis",
                                   "Email Webcam Object Detection", "Web Scraping Musical Events",
                                   "Hotel Booking", "Super Mario Game Code Inspection",
@@ -129,3 +129,8 @@ with tab14:
     st.image("images/14.png", width=500)
     st.write(f"[Streamlit Website]({df['url'][13]})")
 
+with tab15:
+    st.header("")
+    st.write(df["description"][17])
+    st.image("images/17.png", width=500)
+    st.write(f"[Streamlit Website]({df['url'][17]})")
